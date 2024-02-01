@@ -1,0 +1,11 @@
+# Top-most EditorConfig file
+root = true
+
+# Specify the coding style for all files
+[*]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+trim_leading_whitespace = true
+insert_final_newline = true
+max_line_length = 80
