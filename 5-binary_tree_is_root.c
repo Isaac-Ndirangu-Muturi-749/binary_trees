@@ -15,8 +15,8 @@ int binary_tree_is_root(const binary_tree_t *node)
 
 	/* Check if the node has no parent (is a root) */
 	if (!node->parent)
-		return (1);
+		return (0);
 
 	/* Node has a parent, so it's not a root */
-	return (0);
+	return (1);
 }
